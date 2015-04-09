@@ -28,7 +28,7 @@ document.ontouchmove = function(e) {e.preventDefault()};
 function nextPic() 
 {
 	clicks ++;
-	if (clicks % 50 == 0){
+	if (clicks % 1 == 0){
 		evols ++;
 	}
 	$('#clicks').text(clicks);
