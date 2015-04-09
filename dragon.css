@@ -5,7 +5,7 @@ body {
  /*background-image: url("http://thumbs.dreamstime.com/z/thanksgiving-background-cooked-turkey-vector-34655625.jpg");*/
  
 /* background-image: url("image/gamesBG.png");*/
-  
+  overflow-y:hidden;
   background-color: #31353d;
   color: #ffffff;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
