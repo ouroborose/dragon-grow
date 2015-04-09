@@ -1,0 +1,257 @@
+/* Space out content a bit */
+body {
+/*  padding-top: 20px;
+  padding-bottom: 20px;*/
+ /*background-image: url("http://thumbs.dreamstime.com/z/thanksgiving-background-cooked-turkey-vector-34655625.jpg");*/
+ 
+/* background-image: url("image/gamesBG.png");*/
+  
+  background-color: #31353d;
+  color: #ffffff;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	
+}
+
+#header{
+  background-color: #31353d;
+  color: #92cdcf;
+}
+
+#header .container{
+
+  background-color: #31353d;
+  color: #92cdcf;
+}
+
+#bottom-row{
+  background-color: #31353d;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+}
+
+#bottom-row .container{
+
+  background-color: #31353d;
+  color: #92cdcf;
+}
+
+.footer,
+.Myjumbotron{
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+  font: #ffffff;
+  background-color: #31353d;
+}
+
+.Myrow{
+padding-top: 80px;
+}
+#designSlider,
+#artSlider,
+#storySlider,
+#codeSlider,
+#restSlider{
+ margin-top: 10px;
+ margin-bottom: 29px;
+}
+
+.moveDown{
+	top: 70px;
+}
+
+.main_image{
+
+margin-top: 0px;
+}
+
+.gameTitle {
+  float: left;
+  color: #92cdcf;
+  vertical-align: text-bottom;
+}
+
+.subtitle {
+  float: left;
+  color: #7696c4;
+  vertical-align: text-bottom;
+}
+
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+h3 small{
+  color: #7696c4;
+}
+
+/* Custom page footer */
+.footer {
+
+
+  padding-top: 19px;
+  color: #777;
+  
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 930px;
+    background-color: #1c1d21;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main people message and sign up button */
+.jumbotron {
+  text-align: center;
+
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+  position: center;
+  text-align: center;
+  
+}
+
+/* Supporting people content */
+.people {
+  margin: 30px 0;
+  font-size: 18px;
+  color: #7696c4;
+}
+
+.people p + h4 {
+  margin-top: 10px;
+}
+
+.portrait{
+  /*float:left;*/
+  position: static;
+  clear: left;
+  font-size: 12px;
+  color: #92cdcf;
+}
+.desc{
+  position: static;
+  /*float: left;*/
+  text-align: left;
+  max-width: 120px;
+  font-size: 10px;
+  padding: 4px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .people,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.myClass{
+	position: center;
+	text-align: center;
+
+	}
+
+.ui-slider .ui-slider-handle{
+  background: #af6b2e;
+  border: 1px solid #a15f24;
+}
+
+.btn, .btn:focus, .btn:active, .btn.active, .btn-success {
+  background: #7696c4;
+  border: 1px solid #7696c4;
+  border-radius: 0px;
+}
+
+.btn-success[disabled] {
+  background: #445878;
+  border: 1px solid #2e3949;
+  border-radius: 0px;
+}
+
+.btn:hover {
+  color: black;
+  background: #92cdcf;
+  border: 1px solid #7696c4;
+  border-radius: 0px;
+}
+
+.round{
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+  font-size: 18px;
+  color: #7696c4;
+  /*background: #31353d;*/
+}
+
+.roundContent{
+  width: 100%;
+  height: 50px;
+  font-size: 12px;
+  display: table-cell;
+  vertical-align:middle;
+  text-align:left;
+  text-decoration: none;
+}
+
+/*Progress bar stuff*/
+.progress {
+  background: #31353d; 
+  border: 0px solid rgba(245, 245, 245, 1); 
+  border-radius: 0px; height: 18px;
+}
+.progress-bar-custom {
+  background: #7696c4;
+}
+
+#bottom-row .progress {
+  background: #1c1d21;
+}
+
+/*#cash {
+  font-size: 30px;
+}*/
+
+#placeholder{
+  height: 32px;
+}
+
+.gameArea{
+  background: #1c1d21;
+}
+
+.modal-content{
+  background: #31353d;
+  color: #92cdcf;
+}
+.modal-body {
+  background: #1c1d21;
+  color: #7696c4;
+}
+
+.modal-footer, .modal-header{
+  border: 0px;
+}

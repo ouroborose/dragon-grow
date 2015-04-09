@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>RAWR</title>
+
+    <!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="jquery-ui.css" />
+	<link rel="stylesheet" href="bootstrap.min.css" />
+	<link rel="stylesheet" href="dragon.css" />
+	<script src="jquery-1.11.1.js"></script>
+    <script src="jquery-ui.js"></script>
+	<script src="bootstrap.js"></script>
+	<script src="dragon.js"></script>
+
+
+</head>
+
+
+
+  <body>
+
+<!-- win modal -->
+<div class="modal fade" id="ending1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" 
+   data-keyboard="false">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button> -->
+        <h4 class="modal-title" id="myModalLabel">Game Over</h4>
+      </div>
+      <div class="modal-body">
+      	Your child feels no love from you. Your relationship with your child has deteriorated to the point where your child decided to run away from home, in search for a better life. You called the police, not knowing if you will ever see your child again.
+      	<br><br>
+      	<i>An estimated 1.6 million kids run away each year in the United States. It is important to maintain a close, healthy relationship with your child to prevent threats of running away.</i>
+        <img src="image/ending_runAway.png" alt="Image" width="569">
+      </div>
+      <div class="modal-footer">
+        <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> -->
+        <button type="button" class="btn btn-primary btn-lg" data-dismiss="modal" onClick="restartGame()">Restart game</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+
+    <div id="header">
+    	<div class="container">
+	    	<header>
+	       		<div class="gameTitle"><h3>RAWR   <small>Hi my name is rawr im a dragon click me </small> </h3></div>
+	  		</header>
+  		</div>
+    </div>
+
+<!--Main Container-->
+<section class="gameArea">
+	<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Show ending
+</button> -->
+    <div class="container" > 
+	    <div class="row people"><!--upper people row-->
+
+  			<!-- <div class="row people">-->
+			    <div class = "col-lg-8">
+			    	<div class="roundText" id="desc">It's an egg</div>
+	    			<div class="roundText" id="clicks">0</div>
+	    			<div class="roundText" id="evols">0</div>
+				 	<div class="portrait">
+				  		<img src="image/00_egg1.png" class="main_image" alt="Image" width="569" onClick="nextPic()">
+					</div>
+					  
+				</div>
+			<!-- </div> -->
+
+		</div>
+	</div>
+</section>
+
+	 
+	<div class="footer"> <!--footer area-->
+    </div>
+
+</body></html>
