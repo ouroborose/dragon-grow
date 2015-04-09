@@ -23,6 +23,8 @@ var round_names = ["It's an egg", "Hey the egg is responding to your clicks I th
 var timeOfDay = ["7:00am", "7:30am", "7:00am", "8:30am", "3:00pm", "4:00pm", "6:00pm", "7:00pm", "8:00pm"];
 var total_rounds = round_names.length;
 
+document.ontouchmove = function(e) {e.preventDefault()};
+
 function nextPic() 
 {
 	clicks ++;
