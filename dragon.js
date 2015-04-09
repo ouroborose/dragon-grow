@@ -33,7 +33,7 @@ function nextPic()
 	$('#desc').text(round_names[evols]);
 	$('#evols').text(evols);
 
-		$('.main_image').attr('src', round_images[evols]);
+		$('#mainImage').attr('src', round_images[evols]);
 
 }
 
