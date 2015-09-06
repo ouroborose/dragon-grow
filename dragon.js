@@ -23,23 +23,47 @@ var round_names = ["It's an egg", "Hey the egg is responding to your clicks I th
 var timeOfDay = ["7:00am", "7:30am", "7:00am", "8:30am", "3:00pm", "4:00pm", "6:00pm", "7:00pm", "8:00pm"];
 var total_rounds = round_names.length;
 
+var nextEvoVal = 10;
+var clicksElapsed = 0;
+
 document.ontouchmove = function(e) {e.preventDefault()};
+
+$(document).ready(function(){
+
+	animationClick("#dragonPic", 'bounce');
+
+});
+
+function animationClick(element, animation){
+  element = $(element);
+  element.click(
+    function() {
+      element.addClass('animated ' + animation);
+      //wait for animation to finish before removing classes
+      window.setTimeout( function(){
+          element.removeClass('animated ' + animation);
+      }, 1000);
+    }
+  );
+};
 
 function nextPic() 
 {
 	clicks ++;
-	if (clicks % 50 == 0){
+	clicksElapsed ++;
+	if (clicksElapsed >= nextEvoVal){
 		evols ++;
+		nextEvoVal *= 1.2;
+		clicksElapsed = 0;
 	}
 	$('#clicks').text(clicks);
 	$('#desc').text(round_names[evols]);
 	$('#evols').text(evols);
+	$('#nextClicks').text(nextEvoVal);
 
 		$('#mainImage').attr('src', round_images[evols]);
 
 }
-
-
 
 // round 1 - early morning
 function wakeChild() 
